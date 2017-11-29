@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+
+<!---->
+        <item name="android:activityOpenEnterAnimation">@anim/anim_activity_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_activity_exit</item>
+
+    </style>
+</resources>
